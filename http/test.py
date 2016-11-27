@@ -2,7 +2,8 @@ import urllib.request
 import urllib.parse
 
 
-url = 'http://192.168.56.101/login'
+# url = 'http://192.168.56.101/login'
+url = 'http://localhost:8080/student'
 def get():
     page = urllib.request.urlopen(url)
     html = page.read().decode('utf-8')
